@@ -2,7 +2,7 @@
   "name": "lodash-ext",
   "version": "1.0.0",
   "description": "",
-  "main": "lib/index.js",
+  "main": "lib/cjs.js",
   "scripts": {
     "build": "rm -rf lib && mkdir -p lib && babel src --out-dir lib",
     "prepare": "npm run build",
