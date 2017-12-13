@@ -31,7 +31,7 @@ describe('wrapArray', () => {
     });
 
     it('should wrap array if array-like passed', async () => {
-        const actual = wrapArray({'0:': 'a', '1:': 'b', length: 2});
-        assert.deepEqual(actual, [{'0:': 'a', '1:': 'b', length: 2}]);
+        const actual = wrapArray({'0': 'a', '1': 'b', length: 2});
+        assert.deepEqual(actual, [{'0': 'a', '1': 'b', length: 2}]);
     });
 });
