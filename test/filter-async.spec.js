@@ -1,4 +1,4 @@
-import assert, { AssertionError } from 'power-assert';
+import assert, {AssertionError} from 'power-assert';
 import filterAsync from '../src/filter-async';
 
 describe('filterAsync', () => {

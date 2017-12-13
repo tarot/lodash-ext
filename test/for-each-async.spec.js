@@ -1,4 +1,4 @@
-import assert, { AssertionError } from 'power-assert';
+import assert, {AssertionError} from 'power-assert';
 import forEachAsync from '../src/for-each-async';
 
 describe('forEachAsync', () => {

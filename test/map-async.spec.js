@@ -1,4 +1,4 @@
-import assert, { AssertionError } from 'power-assert';
+import assert, {AssertionError} from 'power-assert';
 import mapAsync from '../src/map-async';
 
 describe('mapAsync', () => {
